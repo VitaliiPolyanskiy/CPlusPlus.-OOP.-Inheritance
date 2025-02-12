@@ -101,6 +101,7 @@ int main()
 	obj2.SetA(10, 20, 30);
 	obj2.SetB(40);
 	obj2.ShowB();
+	obj2.ShowA();
 
 	C obj3;
 	// obj3.a = 1;
@@ -110,6 +111,7 @@ int main()
 	// obj3.SetA(10, 20, 30);
 	obj3.SetC(40);
 	obj3.ShowC();
+	// obj3.ShowA();
 
 	D obj4;
 	// obj4.a = 1;
@@ -119,6 +121,7 @@ int main()
 	// obj4.SetA(10, 20, 30);
 	obj4.SetD(40);
 	obj4.ShowD();
+	//obj4.ShowA();
 
 	return 0;
 }
